@@ -10,9 +10,3 @@ func Hello(name string) string {
 	message = fmt.Sprintf("Hi, %v. Welcome!", name)
 	return message
 }
-
-//
-
-// def Hello(name):
-// 	message="Hi" + "welocme" + name
-// 	return message
