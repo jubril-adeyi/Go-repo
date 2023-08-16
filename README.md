@@ -1,2 +1,2 @@
 # Go-repo
-Documenting my journey through learning Golang programming language 
+Documenting my journey through learning the Go programming language 
