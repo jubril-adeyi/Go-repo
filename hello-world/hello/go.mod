@@ -1,11 +1,11 @@
-module example.com/hello
+module hellomodule
 
 go 1.21.0
 
-replace example.com/greetings => ../greetings
+replace greetings => ../greetings
 
 require (
-	example.com/greetings v0.0.0-00010101000000-000000000000
+	greetings v0.0.0-00010101000000-000000000000
 	rsc.io/quote v1.5.2
 )
 

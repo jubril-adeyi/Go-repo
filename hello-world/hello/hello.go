@@ -1,27 +1,33 @@
 package main
 
-// import (
-// 	"fmt"
-
-// 	"rsc.io/quote"
-// )
-
-// func main() {
-// 	fmt.Println("Hello, World!")
-// 	fmt.Println(quote.Go())
-// }
-
 import (
 	"fmt"
+	cursing "greetings/curse"
+	greeting "greetings/greet"
+	"log"
 
-	"example.com/greetings"
 	"rsc.io/quote"
 )
 
 func main() {
-	// Get a greeting message and print it.
-	message := greetings.Hello("Gladys")
-	fmt.Println(message)
+	name := "jubril"
+	surname := "adeyi"
 	fmt.Println("Hello, World!")
 	fmt.Println(quote.Go())
+	fmt.Println(name, surname)
+
+	log.SetPrefix("greetings: ")
+	log.SetFlags(0)
+
+	message, err := greeting.Greet("")
+	fmt.Print(message)
+
+	if err != nil {
+		log.Fatal(err)
+	}
+	message1 := greeting.Greets(name)
+
+	message2 := cursing.Curse(name)
+	fmt.Println(message1)
+	fmt.Println(message2)
 }
