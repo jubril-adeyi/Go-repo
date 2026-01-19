@@ -1,0 +1,193 @@
+Screening Test/Interview Questions for Cloud Systems Engineer (Remote)
+Position.
+Instructions: Please start each of your responses by repeating the question you are
+answering.
+Use acronyms only after you've explained them.
+Use correct spelling and grammar.
+Email back your answers using either doc or pdf format
+Candidate’s Name:
+
+1. Are you working at the moment?
+2. What are some common security risks associated with cloud computing? How can they be
+mitigated?
+
+Data breaches: This can be prevented through using proper IAM(identity access management) policies, and implementing encryption to data storage. 
+
+DDOs attacks: This can be managed by using Services like web application firewall (WAF) in AWS, rate limiting and restricting access to a number of IP addresses in an IP set.
+
+Insider threat: A situation where an unauthorized user is allowed more permission and access than necessary can be avoided by implementing the principle of least privilege in IAM configurations and logging user activity using CloudTrail. 
+
+
+3. Can you explain the concept of IAM (Identity and Access Management) in cloud services?
+
+IAM is a framework/concept used within cloud environments to control and designate appropriate user access and permissions, IAM is used to ensure that only authorized individuals or services can access cloud resources. It involves Authentication for users.
+
+
+4. What tools would you use for cloud infrastructure automation and orchestration?
+
+For automating and orchestrating cloud infrastructure, I would use:
+
+Infrastructure as Code (IaC) Tools: Terraform, AWS CloudFormation.
+
+Configuration Management: Ansible, Puppet, AWS SSM.
+
+Container Orchestration: Kubernetes (EKS, ECS, AKS, GKE).
+
+CI/CD Pipelines: GitHub Actions, Jenkins, AWS CodePipeline. 
+
+
+
+5. How would you set up Continuous Integration and Continuous Deployment (CI/CD)
+pipelines in the cloud?
+
+To set up  CI/CD pipelines in the cloud i'll follow these steps: 
+
+1. Use GitHub, GitLab to store and versio control the code. 
+2. Set up CI tools like GitHub actions, Jenkins to run the build process for the code. 
+3. Use tools like Argocd (for Kubernetes), AWS CodeDeploy, terraform  to run the deployment process. 
+4. Integrate Vulnerability and Code scanning into the pipeline, with tools such as SonarQube 
+
+6. Can you explain Infrastructure as Code (IaC) and the tools used to implement it, such as
+Terraform or AWS CloudFormation?
+
+Infrastructure as code is a way to automate the management cloud infrastructure using code, it ensures consistency across all resources managed in cloud infrastructure.  One of its key features is the declarative approach, where you define the desired state of the infrastructure, and the IaC tool ensures that the resources in the environment matches this state.  
+
+7. What is containerization, and how can it be used effectively in the cloud (e.g., using
+Docker and Kubernetes)?
+
+Containerization is a method of packaging applicatins into smaller isolated lightweight environments known as containers, this container includes all dependencies required by the application to run. 
+
+Docker creates container images that package application code along with all its dependencies. This is done using a Dockerfile, which defines the container's environment, dependencies, and runtime configuration. Docker also manages the execution of these containers, maintaining consistency across different environments.
+
+In cloud environments, Docker containers can be deployed on container orchestration services such as Amazon ECS (Elastic Container Service), AWS EKS (Elastic Kubernetes service), Azure Container Instances (ACI).
+
+Kubernetes is a container orchestration tool that manages coontainerized applications, kubernetes automates the deployment, scaling, networking, storage and management of containerized applications.
+
+8. If an application deployed in the cloud is facing latency issues, how would you go about
+troubleshooting it?
+
+1. Identify the scope of the latency; Investigate region placement to ascertiain if the issue is global or regional, i.e if its affecting users in only a specific location.
+
+2. Identify the source of the latency: Using monitoring tools like CloudWatch, Datadog, or Prometheus to check CPU, memory, network performance to do troubleshooting to identify the affected components of the application. 
+
+3 Determine if the latency affects the frontend or the backend API or simply Network Latency: Using application logs and metrics to determine slow response times and slow API calls. 
+
+ Backend/API Performance: Check if API response times are slow using Postman or curl.
+ Frontend Troubleshooting: Use browser DevTools (Chrome/Firefox) to check network request timings.
+ Network Latency: Use ping to test network paths.
+
+
+9. How do you monitor the health and performance of cloud resources and applications?
+
+Using Effective monitoring systems which involves; observability, visualizing  and alerting systems using specialized monitoring tools such as Datadog, cloudwatch, Prometheus and Grafana.  
+
+Metrics & Logs: Logs Collection system for application performance data using Datadog, CloudWatch, or Prometheus.
+Visualization: Grafana or CloudWatch Dashboards to analyze trends and detect anomalies.
+Alerting & Automation: Set up alerts with CloudWatch Alarm or Datadog Monitors to respond to issues in real time.
+
+10. What is CloudWatch in AWS, and how would you use it to troubleshoot a service issue?
+
+CloudWatch is a monitoring  and observability service within AWS. To troublshoot a service issue using cloudwatch:
+ 
+Cloudwatch metrics to troubleshoot metrics of CPU, Memory, network utilization
+CloudWatch logs to investigate application and service logs 
+CloudWatch alarms to Set alarms to be triggered when set thresholds are crossed
+
+11. Can you explain the process of debugging and troubleshooting a networking issue within a
+cloud environment?
+
+Debugging networking issues starts with tracing where the connectivity/communication links may have been faulty, utilizing the observability tools put in place and monitoring VPC flow logs. this includes:
+
+Identifying the Scope of the issue: Determine if the issue affects a single instance, a subnet, or the entire network.
+Check Network Logs & Metrics: Use VPC Flow Logs, CloudWatch, or third-party tools to analyze inbound/outbound traffic
+Test Connectivity: Run ping to detect latency, packet loss, or misconfigured routes.
+Inspect Security group/ firewall Rules: Verify security groups, NACLs, and firewalls to ensure traffic is allowed.
+Review Load Balancers & DNS: Check ALB/NLB logs and the DNS services  (Route 53) for any misconfigurations.
+
+
+12. What is the importance of cloud logs, and how would you analyze logs from different
+cloud providers?
+
+cloud logs are important as they help locate the issues, track when the issue occurred and provide more visibility into the system behavior
+
+13. Explain the concept of a CDN (Content Delivery Network) in the cloud and how it
+improves performance.
+
+A CDN is a network of servers all over the world that that cache and serves as off-ramp for internet traffic to deliver content closer to users. It reduces latency by serving the cached content from these edge locations all over the globe, thus,  improving load times and reducing latency significantly.
+
+
+14. What are the different types of Load Balancers in AWS/Azure/GCP, and when would you
+use each?
+
+There are three main types of load balancers:
+
+Application Load Balancer (ALB): Used for HTTP/HTTPS traffic, provides routing based on content and URL paths.
+
+Network Load Balancer (NLB): Used for high-performance TCP/UDP traffic, used for low-latency applications.
+
+Classic Load Balancer (CLB): Legacy load balancer, mainly used for applications that require simple routing.
+
+15. What is a Direct Connect (AWS) or ExpressRoute (Azure), and why would an
+organization use it?
+
+AWS Direct Connect and Azure ExpressRoute are dedicated network connections between an on-premises data center and the cloud provider. Their use cases is using them for secure and low-latency connections, while bypassing the public internet.
+
+Example is a cryptocurrency trading platform handling real-time trading, AWS Direct Connect  can be used to  establish a private, low-latency connection between on-premises trading servers and AWS cloud services. This will ensure secure and very fast data transfers, avoiding  delays and eliminating the security risks associated with the public internet.
+
+16. How do VPNs (Virtual Private Networks) work in the cloud, and what are the key
+differences between site-to-site and client-to-site VPNs?
+
+VPNs are used to establish encrypted communication channels over the internet to securely connect two different networks.
+
+Site-to-Site VPN: Connects the entire networks on both ends (sites), and  it is used for connecting corporate offices to cloud environments.
+
+Client-to-Site VPN: Used by individual users to securely connect to a network from remote locations
+
+17. What is a CDN (Content Delivery Network), and why is it used in cloud services?
+
+A CDN like Cloudfront is a network of distributed servers that store caches of content to improve performance, reduce latency, and increase availability.
+
+18. How do you monitor and optimize costs in a cloud environment?
+
+By implementing cost monitoring tools such as AWS Cost Explorer and third-party tools like CloudHealth. To optimize cost, ensure that instances are rightsized, using reserved instances, and automating scaling.
+
+Also automated processes can be put in place using services like lambda functions to automatically detect unused resources like RDS instances, Dynamodb Tables, EBS volumes and notify as to which of these services are costing the organization for little or no value. 
+
+
+19. What tools or strategies would you use to manage cloud costs effectively in a large
+organization?
+
+Reserved Instances & Savings Plans
+
+Cost and Usage Reports
+
+Auto-scaling
+
+Resource tagging for visibility
+
+Rightsizing recommendations
+
+Spot Instances for non-critical workloads
+
+
+20. Explain the concept of Reserved Instances vs. On-Demand Instances in AWS and how
+they impact cost.
+
+On Demand instances are basically pay-as-you go instances, and they are no long term commitments attached to these instances, they are ideal for unpredicatble workloads, workloads used during development or testing. 
+
+Reserved instances are instances with long term commitment involved, and this includes a significant of amount saved in cost, It is best suited foir steady workloads that are predictable, it is ideal for production grade applications and databases that are part of long term infrastructure planning. 
+
+21. How can auto-scaling help in reducing cloud costs?
+
+Autoscaling will reduce cost by adjusting the compute resources provisioned based on demand, ensuring that the instances scale down on low usage to save unnecessary cost. 
+
+22. What are cost-saving mechanisms in cloud platforms, such as AWS Savings Plans or
+Azure Reserved Instances?
+
+AWS Savings Plans: Provides flexible, discounted pricing in exchange for a period of commitment to a specific amount of compute usage. Unlike Reserved Instances, they apply across multiple instance types, regions, and even other AWS services like Lambda and Fargate.
+
+Azure Reserved Instances: Offer substantial discounts for committing to specific VM instances for a fixed period of one or three years. These reservations help businesses running steady workloads reduce costs compared to pay-as-you-go pricing.
+
+An organization with fluctuating compute needs may benefit from AWS Savings Plans, while one running a consistent set of virtual machines would save more with Azure Reserved Instances
+
+23. What hourly rate would you request if you were hired?

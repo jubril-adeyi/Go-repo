@@ -1,0 +1,32 @@
+feedback from support for logging for workspaces- solid information. 
+
+feedback for the monitoring with ansible etc. -\
+trying to first execute some steps manually bevore reproducing it in ansible- following the steps outlined in the doducmentation because its comoletely different from the approach used in the one sysops setup for the genesys Linux machines/applications. 
+
+This week will continue 
+also add the AutoStart lambda and eventbridge deployment to the aws-workspace repository and pipeline. 
+also working on alerting for service catalog using eventbrudge
+
+
+For the AutoStart lambda for starting lambda functions during maintainance window for patching 
+
+I tested the whole process in Infradeploy account, it works perfectly
+this week i will be integrating the Lambda function and EventBridge rule into the aws-workspaces repository and pipeline 
+
+
+For the workspaces logging, 
+
+we'll be working on implementing the cloudwatch agent approach, I'll have a call laeter today with someone in aws support to iron out the details - the cloiudwatch agent approach is suited to windows ec2 instances, so we'll need to make some changes in the approach that will suitable for workspaces
+
+
+for the email notification for service catalog workspaces creation. 
+
+I'll be working on setting up alerting using eventbridge and SES to send email notifications to users
+
+
+For Checkmk for workspaces 
+
+Last week we created a new workspace in Infradeploy for testing, confirmed the checkmk agent status and tried use the official documentation for registering windows hosts to register the workspaces manually, I ran into some issues the registeration failed. will be contacting chung wang to get some more information. 
+
+The plan is to adapt the steps in this documentation to build the steps for the ansible automation. 
+it is completely different from the one sysops used for genesys linux hosts 

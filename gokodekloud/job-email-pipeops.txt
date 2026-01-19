@@ -1,0 +1,33 @@
+Dear Hiring Team,
+
+I am writing to apply for the DevOps Engineer position at PipeOps, I'm a Devops engineer with a solid background and extensive experience in DevOps practices as I have worked in various Devops roles during the course of my 3 year career, including Site reliability engineer and Devops engineer roles. 
+
+Throughout my career, I have developed, and applied my skills in designing and managing CI/CD pipelines, while collaborating closely with the software engineers to automate and optimize the whole process of software development, testing, and deployment. At my previous role as a freelancer, I have successfully implemented a CI/CD pipeline utilizing Jenkins and GitHub actions, I have also been involved with implementing changes like Upgrades and Migrations applying the best principles.
+
+For the past two years, I have worked as a Site Reliability Engineer, in collaboration with my team, executing application and infrastructural changes, I have implemented observability and monitoring systems to proactively detect and prevent issues while ensuring minimum downtime. I have applied principles such as blue-green deployments and canary releases for seamless updates while maintaining uninterrupted service.
+
+I also posses deep understanding of microservices architecture and containers, including Kubernetes,  and this has been crucial for monitoring, integrity and security. 
+
+Additionally, I possess extensive experience with serverless computing. Utilizing AWS serverless options such as Lambda functions and batch jobs, I have automated various processes and streamlined workflows, and this significantly enhancing operational efficiency. 
+
+I have also made contributions to the open-source community, the Nmstate man pages and documentation—an API for network management on the Linux OS.
+
+
+I am also Proficient in Python, Bash, and currently a beginner in Golang, I have utilized these languages into multiple projects, using them to implement high-quality solutions. My programming skills, combined with my expertise in automation, monitoring, and security, position me well to contribute to the innovative and forward-thinking environment at PipeOps.
+
+I am particularly drawn to PipeOps’ innovative approach and its emphasis on automation of complex DevOps workflows and I recognize the opportunity to work in an environment with a flexible schedule that aligns perfectly with my work style and preferences. I am eager to collaborate with your talented team and contribute to the continuous improvement and success of PipeOps.
+
+Thank you for considering my application. I look forward to  discussing how my skills and experiences align with the needs of your team. Please find my resume attached for your review.
+
+Sincerely,
+
+Jubril Adeyi 
+
+
+
+
+
+
+
+
+

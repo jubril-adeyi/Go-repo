@@ -1,0 +1,45 @@
+Data types in Golang 
+string 
+integers 
+floats 
+boolean 
+arrays and slices array is same data type sets slices are flexible and can be assigned memory 
+maps are collections of key value pairs 
+like "x" -> "er" 
+
+
+memory allocation and datatypes 
+
+static and dynamic typed languages
+
+static types means that an error is thrown if the datatype is used wrongly, in terms of parameter like c++ and Java 
+
+dynamic is if the compiler do not enforce the datatype system e.g python, js 
+
+go is a static so the data type needs be specified like 
+
+static types means that code is slow to write and its harder to write. 
+
+
+In go the concepts of types states that the type is either explicitly declared by the writer or the compiler infers it implicitly 
+
+its fast and statically typed compiled language that almost feels like itsi dynamically typed, interpreted lang. 
+in a way
+
+
+
+data types in go 
+
+numbers: integer and floats 
+
+int and float 
+
+when using the fmt print options
+
+fmt.Print doesn't add a new line also doesn't add space when used in connected string combined with , in btw
+/n means new line character and can prove useful in this 
+Printf is for putting a custom string/variable in a predefined text
+format specifiers
+	%v formats the value in default format
+
+variable scope is defined in go using blocks which is {} so an inner block can aces a variable declared in outer block but the internally declared variable cannot be accessed in the outer block

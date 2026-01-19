@@ -1,0 +1,38 @@
+Hello,
+
+My name is Jubril, and I'm a Cloud Engineer with skills and experience that aligns perfectly with the requirements for this role.
+
+I have hands-  expertise in infrastructure management and  configuration, with a strong focus on Google Cloud Platform (GCP). My experience includes deploying and managing cloud environments using GCP, where I’ve leveraged services like Compute Engine, Kubernetes Engine, and BigQuery to build scalable and secure solutions. I'm proficient in using Terraform for infrastructure as code and have successfully orchestrated containerized applications with Kubernetes on GCP.
+
+In my current role, I manage and monitor cloud infrastructure, ensuring high availability and performance while maintaining strict security standards. My software development skills complement my cloud expertise, allowing me to integrate and automate infrastructure processes seamlessly. I’m adept at identifying and solving complex problems, which has been crucial in optimizing cloud resources and reducing operational costs.
+
+Beyond my technical skills, I excel in communication and teamwork, consistently collaborating with cross-functional teams to deliver high-quality outcomes. I also have a deep understanding of networking and infrastructure security principles, which I apply daily to ensure our systems are robust and secure.
+
+While I do not hold any cloud certifications, my practical experience with GCP and other cloud technologies speaks to my capability and readiness to excel in this role.
+
+I’m enthusiastic about the opportunity to bring my GCP expertise to your team and contribute to the success of your cloud projects. I look forward to discussing how I can be an asset to your organization.
+
+Best regards,
+Jubril
+
+
+Hello, 
+
+My name is Jubril, I'm a cloud engineer with about 2 years experience, and my skills and experience align perfectly with the requirements for this role. 
+
+I have hands on experience with the integral aspects of cloud computing, including infrastructure management, system configuration, containerization and networking. I am proficient and have experience managing cloud based infrastructure using terraform.
+
+I am also familiar with deploying cloud resources on Google cloud provider (GCP) especially with the google Kubernetes engine, I have hand-on experience managing and maintaining Kubernetes clusters deployed on GCP. 
+
+As far as software development skills go, I'm proficient in programming languages including python and Golang  and scripting languages; Bash and Powershell, and my software development skills complement my cloud expertise, allowing me to integrate and automate infrastructure processes seamlessly.
+
+I am very meticulous about adhering to cloud computing basic principles and best practices, and I apply this diligently when dealing with security and mostly network security to ensure that cloud systems are secure, available and scalable.
+
+Apart from technical skills, I excel at communication and working with teammates, and my experience over the course of my career has enriched me with the ability to identify issues with the use of observability tools/setup and solving a wide range of issues while paying attention to cost. 
+
+While I do not hold any GCP cloud certifications, my practical experience with GCP and other cloud technologies speaks to my capability and readiness to excel in this role.
+
+I’m enthusiastic about the opportunity to bring my expertise to your team and contribute, and  i look forward to discussing how I can be an asset to your organization.
+
+Best regards,
+Jubril

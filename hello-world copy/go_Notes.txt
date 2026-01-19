@@ -1,0 +1,14 @@
+go Notes
+
+
+1. when defining function names, use capital letter if you want it to be exportable when defining the function in a module you want to import externally 
+
+2. using '' and "" are different the former is for character literal, so it can not take more than one character/letter and when used. fmt.PrintIn() prints the Unicode integer assigned to whatever letter is in the ''
+
+3. := defines a variable while letting go infer the type of the variable that is being defined.
+
+4. functions that output values must use return statement if the function retuen type is specified there is ntohing like returning None in go when the return type is explicitly stated. 
+
+5. Go variables use const like JS, the value remain the same and cannot be redefined throughout the program
+    also they can be untyped 
+6. variables cn be defined outside main function or any other function, thereby making it global througiut the package.so any func can use it 
